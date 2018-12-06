@@ -1,0 +1,30 @@
+CSCHOOL CRM :
+
+  Créer les tables:
+  ☐ Stagiaires
+  ☐ Formations
+  ☐ Actions de Formations
+
+  Créer les relations:
+  ☐ 1 Stagiaire hasMany Formations
+  ☐ 1 Formation can belongsToMany Stagiaires
+     => Relations Polymorphique (Many to Many)
+
+  Créer les champs:
+  ☐ Les devis, factures, accords, conventions, seront des pièces jointes au dossier d'action de formation.
+  ☐ Table des stagiaires
+     => LastName | FirstName | Email | Address | Status | IsRegularClient | Photo | Phone
+  ☐ Table des Formations
+     => Title | Description
+  ☐ Table des Actions de Formations
+     => Type | StartingDate | EndingDate | Price | FundingBody
+
+Liste des fonctionnalités:
+  ☐ CRUD des stagiaires
+  ☐ CRUD des formations
+  ☐ CRUD des actions de formations
+    -------------------------------
+  ☐ Search by => Stagiaires
+  ☐ Search by => Formations
+  ☐ Search by => Actions de Formation
+  
